@@ -119,3 +119,8 @@ tr:hover {
   margin: 2rem auto;
   padding: 0 1rem;
 }
+
+.admin-container p {
+  text-align: center;
+  margin-top: 1rem;
+}
