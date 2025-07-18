@@ -1,17 +1,22 @@
+<!-- public/signup.html -->
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset=utf-8>
+  <meta charset="utf-8">
   <title>Yodlr Registration Portal</title>
+  <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
   <h1>Yodlr Registration Portal</h1>
-  <form>
-    Email: <input type="email" name="email"></br>
+  <form id="signupForm">
+    <label>First Name: <input type="text" name="firstName" required></label><br />
+    <label>Last Name: <input type="text" name="lastName" required></label><br />
+    <label>Email: <input type="email" name="email" required></label><br />
     <button type="submit">Submit</button>
   </form>
   <p>
     <a href="/admin.html">Admin Page</a>
   </p>
+<script type="module" src="/js/signup.js"></script>
 </body>
 </html>
