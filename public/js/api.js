@@ -11,3 +11,11 @@ export async function createUser({ firstName, lastName, email }) {
 
   return await res.json();
 }
+
+export async function getAllUsers() {
+  const res = await fetch("/users");
+  if (!res.ok) {
+    throw new Error("Failed to fetch users");
+  }
+  return await res.json();
+}
