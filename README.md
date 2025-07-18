@@ -91,7 +91,9 @@ Below is the original README from the Yodlr challenge repository, included here 
 
 <details>
 <summary>Original Readme</summary>
-<!-- Yodlr Front End Engineer Code/Design Challenge
+
+ 
+Yodlr Front End Engineer Code/Design Challenge
 =======================
 
 Hello!
@@ -205,5 +207,4 @@ To be perfectly clear, we don't expect that anyone could complete _all_ of these
 ## License
 
 We have licensed this project under the MIT license so that you may use this for a portfolio piece (or anything else!).
- -->
 </details>
