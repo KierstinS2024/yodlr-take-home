@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Roboto, sans-serif;
+  font-family: "Segoe UI", Roboto, sans-serif;
   background-color: #f9fafa;
   color: #333;
   padding: 2rem;
@@ -83,7 +83,8 @@ thead {
   background-color: #f0f0f0;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 0.75rem;
   border-bottom: 1px solid #eee;
@@ -100,4 +101,21 @@ td {
 
 tr:hover {
   background-color: #f9f9f9;
+}
+
+/* Center content wrapper */
+.center-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Admin page layout */
+.admin-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
