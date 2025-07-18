@@ -1,4 +1,97 @@
-Yodlr Front End Engineer Code/Design Challenge
+# Yodlr Frontend Code Challenge
+
+Welcome to my submission for the Yodlr Frontend Engineer Code & Design Challenge!
+
+---
+
+## Description
+
+This project is a user registration and administration web application built with **Node.js and Express** on the backend, and **vanilla JavaScript, HTML, and CSS** on the frontend.
+
+- The backend serves static assets and exposes a JSON REST API for managing users.
+- The frontend includes a **signup page** for user registration and an **admin portal** to view, edit, and manage existing users.
+- The app uses an in-memory data store initialized from JSON on server start.
+- The UI is clean, responsive, and centered for usability, with simple, modern styling.
+
+---
+
+## Features
+
+- User registration via form
+- Admin view of all registered users
+- Full CRUD operations (create, read, update, delete)
+- RESTful API built with Express
+- CORS enabled
+- Basic logging via Winston
+- Error handling middleware
+- Responsive and accessible layout
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v12+ recommended)
+- npm (bundled with Node.js)
+
+### Installation
+
+1. **Fork this repository** if you'd like to explore the code or build upon it.
+
+> ⚠️ **Note:** This is a portfolio project and not intended for direct contributions.  
+> Please **fork** instead of cloning the original.
+
+Then clone your forked copy:
+
+```bash
+git clone https://github.com/KierstinS2024/yodlr-take-home.git
+
+cd yodlr-take-home
+```
+
+2. Install dependencies (Note: Some dependencies may be outdated or subject to deprecation in future versions of Node.js. This project uses legacy packages due to its original scope.):
+
+```bash
+npm install
+```
+
+3. Start the server
+
+```bash
+npm start
+```
+
+4. Open your browser to:
+
+```text
+http://localhost:3000
+```
+
+You should see the homepage with links to the Signup and Admin pages.
+
+---
+
+## Future Improvements
+
+- Add client-side and server-side form validation
+- Add search and filter functionality on the Admin dashboard
+- Improve UX with real-time updates (e.g. WebSockets or polling)
+- Replace in-memory storage with a persistent database
+- Add authentication and role-based access (admin vs user)
+- Write unit and integration tests
+- Deploy live demo on Vercel, Netlify, or Render
+
+---
+
+## Original README (for reference)
+
+Below is the original README from the Yodlr challenge repository, included here for context and completeness.
+
+
+<details>
+<summary>Original Readme</summary>
+<!-- Yodlr Front End Engineer Code/Design Challenge
 =======================
 
 Hello!
@@ -112,3 +205,5 @@ To be perfectly clear, we don't expect that anyone could complete _all_ of these
 ## License
 
 We have licensed this project under the MIT license so that you may use this for a portfolio piece (or anything else!).
+ -->
+</details>
